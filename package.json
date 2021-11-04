@@ -1,0 +1,21 @@
+{
+  "name": "ea-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild index.js --bundle --minify --watch --outfile=public/bundle.js",
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.13.12",
+    "http-server": "^14.0.0"
+  },
+  "dependencies": {
+    "@nick-thompson/elementary": "^0.10.2",
+    "events": "^3.3.0"
+  }
+}
