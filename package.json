@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild index.js --bundle --minify --watch --outfile=public/bundle.js",
+    "build": "esbuild index.js --bundle --minify --outfile=public/bundle.js",
     "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
