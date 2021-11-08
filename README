@@ -3,6 +3,6 @@ Test requirements of `events` polyfill.
 
 ```
 npm install
-npm run build
+npm run build // fails and needs events polyfill
 npm start
 ```
