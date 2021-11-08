@@ -15,7 +15,6 @@
     "http-server": "^14.0.0"
   },
   "dependencies": {
-    "@nick-thompson/elementary": "^0.10.2",
-    "events": "^3.3.0"
+    "@nick-thompson/elementary": "^0.10.4"
   }
 }
